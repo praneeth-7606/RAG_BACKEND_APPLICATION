@@ -10,3 +10,4 @@ langchain-google-genai
 langchain-pinecone
 langchain-text-splitters
 pydantic
+python-multipart
