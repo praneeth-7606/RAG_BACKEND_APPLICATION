@@ -1,0 +1,12 @@
+
+fastapi
+uvicorn[standard]
+PyMuPDF
+python-dotenv
+pinecone-client
+langchain
+langchain-core
+langchain-google-genai
+langchain-pinecone
+langchain-text-splitters
+pydantic
