@@ -24,11 +24,12 @@ app = FastAPI(
 
 origins = [
     "http://localhost:3000",
-    "https://insure-rag.vercel.app/"
+    "https://insure-rag.vercel.app"
 ]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    # ✅ USE THE ROBUST REGEX INSTEAD
+    allow_origin_regex=r"https://.*\.vercel\.app|http://localhost:3000",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
