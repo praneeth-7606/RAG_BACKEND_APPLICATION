@@ -24,7 +24,7 @@ app = FastAPI(
 
 origins = [
     "http://localhost:3000",
-    # Add your deployed frontend URL here
+    "https://insure-rag.vercel.app/"
 ]
 app.add_middleware(
     CORSMiddleware,
