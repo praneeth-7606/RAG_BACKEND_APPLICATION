@@ -186,3 +186,12 @@ cython_debug/
 # Ignore specific server files
 server.py
 server2.py
+
+# OpenCode agent local files (never commit)
+.opencode/
+opencode.json
+.opencode-cache/
+
+# gitflow local folders (never commit)
+gitflow/
+.gitflow/
